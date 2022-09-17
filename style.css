@@ -5,6 +5,15 @@ body {
     color: #ffffff;
 }
 
+
+img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dashed #ffffff;
+    display: block;
+}
+
 h1 {
     text-align: center;
     font-size: 42px;
@@ -16,14 +25,6 @@ h2 {
     color: #0D0D0D;
 }
 
-
-img {
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px dashed #ffffff;
-    display: block;
-}
 
 p {
     font-size: 24px;
@@ -37,7 +38,6 @@ div {
     border-width: 3px;
     border-style: solid;
     border-color: #ffffff;
-
 }
 
 div.introduction {
@@ -86,15 +86,15 @@ div.green {
     border-width: 2px 5px 0px 0px;
 }
 
+footer {
+    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
 footer>p {
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0px
-}
-
-footer {
-    background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
-    border-width: 5px;
-    border: solid;
-    border-color: #ffffff;
 }
